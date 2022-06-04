@@ -1,0 +1,18 @@
+.homePage {
+    position: relative;
+    color: white;
+    background: black;
+  }
+  
+  #homePage_title {
+    color: azure;
+    background-color: salmon;
+    padding: 5px;
+    top: 0;
+  }
+  
+  .\#homePage_body {
+    margin: 50vh;
+  }
+  
+  

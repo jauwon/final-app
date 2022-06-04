@@ -1,0 +1,104 @@
+.reviewPage {
+  position: relative;
+  color: white;
+}
+
+#reviewsMainImage {
+  height: auto;
+  width: 30%;
+  border-radius: 100%;
+}
+
+#commentsTitle {
+  margin: 10px;
+}
+
+.reviewContainer {
+  position: block;
+  width: 360px;
+  height: auto;
+  margin-top: 50px;
+
+  background: rgba(0, 0, 0, 0);
+  transform: rotate(-30deg) skew(30deg) scale(0.8);
+  transition: 0.5s;
+}
+.reviewContainer img {
+  position: absolute;
+  width: 100%;
+  transition: 0.5s;
+}
+.reviewContainer:hover img:nth-child(4) {
+  transform: translate(150px, -150px);
+  opacity: 1;
+}
+.reviewContainer:hover img:nth-child(3) {
+  transform: translate(110px, -110px);
+  opacity: 0.8;
+}
+.reviewContainer:hover img:nth-child(2) {
+  transform: translate(70px, -70px);
+  opacity: 0.6;
+}
+.reviewContainer:hover img:nth-child(1) {
+  transform: translate(30px, -30px);
+  opacity: 0.4;
+}
+
+div#reviewDataComment,
+div#reviewColumns\ reviewDataProduct,
+#reviewColumns\ reviewDataName,
+#reviewColumns\ reviewActionButtons {
+  padding: 5px;
+}
+
+#reviewContainer {
+  border-radius: 5px;
+  background-color: rgba(25, 25, 25, 0.257);
+}
+
+.editReviewBody {
+  border-radius: 5px;
+  color: azure;
+}
+
+input#reviewCommentBox {
+  width: 100%;
+}
+
+#reviewUserImage {
+  max-width: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#myComments {
+  color: rgb(255, 0, 0);
+}
+
+#reviewContainer {
+  margin-top: 5px;
+  border: 1px solid azure;
+  padding: 2%;
+}
+
+#reviewColumns {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+#reviewActionButtons {
+  margin: 5%;
+}
+
+.editButtonTitle {
+  color: black;
+}
+
+#reviewProductImage {
+  max-width: 100px;
+}
+

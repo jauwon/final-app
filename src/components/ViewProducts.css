@@ -1,0 +1,40 @@
+.homePage {
+    position: relative;
+    color: olivedrab;
+    background: black;
+    
+  }
+  
+  #homePage_title {
+    top: 0;
+  }
+  
+  
+  
+  #product {
+    background-color: olive !important;
+    width: auto;
+  
+    border: 1px solid azure;
+    border-radius: 5%;
+    margin: 0.5%;
+  }
+  
+  #productThumbnail {
+    padding: 5px;
+    border: 1px solid azure;
+    height: auto;
+    width: 200px;
+    border-radius: 5%;
+    margin-top: 5%;
+  }
+  
+  #productButton {
+    font-size: 20px;
+    margin: 2%;
+  }
+  
+  .productDescription {
+    color: azure;
+    font-size: 16px;
+  }
