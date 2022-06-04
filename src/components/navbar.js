@@ -39,7 +39,7 @@ class Navibar extends React.Component {
                     <span>
                       {" "}
                       <img id="siteLogo" alt="" src={logo} />{""}
-                      <span id="siteLogoTitle">Kicks</span>
+                      <span id="siteLogoTitle">Kick's</span>
                     </span>
                   </Navbar.Brand>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
